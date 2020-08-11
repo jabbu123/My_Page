@@ -1,0 +1,44 @@
+body {
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(44, 112, 117);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    text-indent: 1cm;
+    
+}
+
+body:active {
+    color: red;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: red;
+}
+        
+a:link {
+    color: darkgreen;
+}
+
+p {
+    display: block;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover {
+    color: red;
+    font-size: 1.5em;
+}
+  
+li { display: inline }
